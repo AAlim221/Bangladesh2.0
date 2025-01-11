@@ -1,0 +1,71 @@
+.nav1 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 942px;
+    
+}
+.link1{
+    text-decoration: none;
+    
+}
+
+.nav2 {
+    display:inline-flex ;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+.banner {
+    display: flex;
+    width: 1280px;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    background: #C6E4D6;
+}
+
+.text1 {
+    color: rgba(14, 14, 14, 0.50);
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+}
+.text2 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 622px;
+}
+.btn1 {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-radius: 8px;
+    background: #006A50;
+}
