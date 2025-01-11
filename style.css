@@ -9,15 +9,16 @@
     justify-content: center;
     align-items: center;
     gap: 942px;
-    
+
 }
-.link1{
+
+.link1 {
     text-decoration: none;
-    
+
 }
 
 .nav2 {
-    display:inline-flex ;
+    display: inline-flex;
     padding: 15px 30px;
     justify-content: center;
     align-items: center;
@@ -25,10 +26,11 @@
     border-radius: 8px;
     border: 1px solid #006A50;
 }
+
 .banner {
     display: flex;
     width: 1280px;
-    padding: 80px 100px;
+    padding: 80px 80px;
     justify-content: center;
     align-items: center;
     gap: 64px;
@@ -45,6 +47,7 @@
     line-height: normal;
     align-self: stretch;
 }
+
 .text2 {
     color: #0E0E0E;
     font-family: "Fira Sans";
@@ -54,6 +57,7 @@
     line-height: normal;
     width: 622px;
 }
+
 .btn1 {
     color: #FFF;
     font-family: "Fira Sans";
@@ -68,4 +72,66 @@
     gap: 48px;
     border-radius: 8px;
     background: #006A50;
+}
+
+.sec2 {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+    padding: 40px;
+}
+
+.section2 .container-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 302px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+.cardimg {
+    width: 64px;
+    height: 64px;
+}
+
+.cardtext {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+   
+}
+
+.cardp {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+   
 }
