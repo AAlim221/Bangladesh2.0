@@ -323,3 +323,285 @@
     color: rgba(14, 14, 14, 0.60);
     align-self: stretch;
 }
+/*sec5t*/
+.sec5t {
+    color: #0E0E0E;
+        font-family: "Fira Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        align-self: stretch;}
+        /*sec6*/
+        .optional {
+            display: flex;
+                padding: 32px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+                align-self: stretch;
+                border-radius: 16px;
+                    background: #FFF;
+                    border-radius: 16px;
+                        background: #FFF;
+                }
+                                .optional1 {
+                                    display: flex;
+                                    padding: 24px;
+                                    flex-direction: column;
+                                    align-items: flex-start;
+                                    gap: 24px;
+                                    align-self: stretch;
+                                    border: 1px solid rgba(14, 14, 14, 0.15);
+                                    background: #C6E4D6;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: flex-start;
+                                    align-self: stretch;}
+                                    .h3op{
+                                        color: #0E0E0E;
+                                            font-family: "Fira Sans";
+                                            font-size: 20px;
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            line-height: normal;
+                                    }
+                                    .h3op1{
+                                        color: #0E0E0E;
+                                            font-family: "Fira Sans";
+                                            font-size: 20px;
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            line-height: normal;
+                                    }
+                                    .six1{
+                                        color: #0E0E0E;
+                                            font-family: "Fira Sans";
+                                            font-size: 40px;
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            line-height: normal;
+                                            align-self: stretch;
+                                    }
+                                    .six2{
+                                        color: rgba(14, 14, 14, 0.70);
+                                            font-family: "Fira Sans";
+                                            font-size: 16px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 24px;
+                                            /* 150% */align-self: stretch;
+                                    }
+                                                          .satelite {
+                                                              display: flex;
+                                                              padding: 48px;
+                                                              align-items: flex-start;
+                                                              gap: 32px;
+                                                              background: #FFF;
+                                                              border-radius: 24px;
+                                                          }
+                            
+                                                          .satelite-image {
+                                                              width: 408px;
+                                                              height: 306px;
+                                                              border-radius: 24px;
+                                                              background: lightgray 50% / cover no-repeat;
+                                                          }
+                            
+                                                          .satelite-content {
+                                                              display: flex;
+                                                              flex-direction: column;
+                                                              gap: 16px;
+                                                              flex-grow: 1;
+                                                          }
+                            
+                                                          .satelite2 {
+                                                              color: rgba(14, 14, 14, 0.80);
+                                                              font-family: "Fira Sans";
+                                                              font-size: 32px;
+                                                              font-weight: 700;
+                                                          }
+                            
+                                                          .satelite3 {
+                                                              width: 134px;
+                                                              height: 40px;
+                                                          }
+                            
+                                                          .date-time {
+                                                              display: flex;
+                                                              gap: 24px;
+                                                              align-items: center;
+                                                          }
+                            
+                                                          .date,
+                                                          .time {
+                                                              color: rgba(14, 14, 14, 0.70);
+                                                              font-family: "Fira Sans";
+                                                              font-size: 16px;
+                                                              font-weight: 400;
+                                                          }
+                            
+                                                          .satelitetext {
+                                                              color: rgba(14, 14, 14, 0.70);
+                                                              font-family: "Fira Sans";
+                                                              font-size: 16px;
+                                                              font-weight: 400;
+                                                              line-height: 24px;
+                                                          }
+                            
+                                                          .satelite5 {
+                                                              margin-top: 16px;
+                                                          }
+                            
+                                                          .btn3 {
+                                                              color: #FFF;
+                                                              font-family: "Fira Sans";
+                                                              font-size: 18px;
+                                                              font-weight: 600;
+                                                              padding: 13px 26px;
+                                                              border-radius: 8px;
+                                                              background: #006A50;
+                                                              cursor: pointer;
+                                                          }
+ /*reverse*/
+ .satelite {
+    display: flex;
+    padding: 48px;
+    align-items: flex-start;
+    gap: 32px;
+    background: #FFF;
+    border-radius: 24px;
+}
+
+.satelite-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-grow: 1;
+}
+
+.satelite-image {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.satelite2 {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.satelite3 {
+    width: 134px;
+    height: 40px;
+}
+
+.date-time {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.date,
+.time {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.satelitetext {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.satelite5 {
+    margin-top: 16px;
+}
+
+.btn3 {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: #006A50;
+    cursor: pointer;}
+        .satelite {
+            display: flex;
+            padding: 48px;
+            align-items: flex-start;
+            gap: 32px;
+            background: #FFF;
+            border-radius: 24px;
+        }
+    
+        .satelite-image {
+            width: 408px;
+            height: 306px;
+            border-radius: 24px;
+            background: lightgray 50% / cover no-repeat;
+        }
+    
+        .satelite-content {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            flex-grow: 1;
+        }
+    
+        .satelite2 {
+            color: rgba(14, 14, 14, 0.80);
+            font-family: "Fira Sans";
+            font-size: 32px;
+            font-weight: 700;
+        }
+    
+        .satelite3 {
+            width: 134px;
+            height: 40px;
+        }
+    
+        .date-time {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+    
+        .date,
+        .time {
+            color: rgba(14, 14, 14, 0.70);
+            font-family: "Fira Sans";
+            font-size: 16px;
+            font-weight: 400;
+        }
+    
+        .satelitetext {
+            color: rgba(14, 14, 14, 0.70);
+            font-family: "Fira Sans";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    
+        .satelite5 {
+            margin-top: 16px;
+        }
+    
+        .btn3 {
+            color: #FFF;
+            font-family: "Fira Sans";
+            font-size: 18px;
+            font-weight: 600;
+            padding: 13px 26px;
+            border-radius: 8px;
+            background: #006A50;
+            cursor: pointer;
+        }
